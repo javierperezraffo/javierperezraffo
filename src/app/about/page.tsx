@@ -25,8 +25,20 @@ export default function AboutPage() {
   return (
     <Container>
       <span className="text-4xl">💬</span>
-      <Heading className="font-black">About Me</Heading>
-      <About />
+      <Heading className="font-black">Sobre mí</Heading>
+      <Paragraph>
+        Un Consultor TI en transformación digital de negocios. Bienvenido a mi espacio, donde la tecnología se convierte en una herramienta para resolver problemas reales y generar resultados medibles.
+        
+        Desde el inicio de mi carrera, me ha fascinado no solo el código o el diseño, sino el poder que tiene la tecnología para transformar un negocio. Para mí, una página web no es solo una vitrina digital; es el motor de un embudo de ventas. Una campaña de anuncios no es un simple gasto; es una conversación directa con clientes potenciales. Mi verdadera pasión es construir los sistemas y procesos digitales que permiten a las empresas dejar de depender de la suerte y empezar a generar demanda de forma predecible.
+        
+        Mi enfoque es integral. Como estratega, diagnostico los desafíos de negocio y diseño el plan de acción. Como técnico, construyo las soluciones, desde sitios web optimizados y rápidos hasta la automatización de procesos que ahorran tiempo y dinero. Y como marketer, me aseguro de que cada pieza del ecosistema digital —SEO, redes sociales, publicidad— trabaje en perfecta sintonía para atraer y convertir.
+        
+        A través de este sitio, comparto casos de éxito, estrategias y el "detrás de escena" de cómo se construyen los motores de crecimiento digital. Si eres un empresario buscando escalar, un colega en busca de nuevas perspectivas, o simplemente alguien que valora la unión entre la estrategia de negocio y la ejecución tecnológica, estás en el lugar correcto.
+        
+        Te invito a explorar mis proyectos y a que conectemos. Juntos, podemos analizar los desafíos de tu negocio y diseñar el camino digital para alcanzar tus metas.
+        
+        Gracias por tu visita.
+      </Paragraph>
     </Container>
   );
 }
