@@ -9,13 +9,13 @@ import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterk
 
 export const products = [
   {
-    href: "https://aceternity.com",
-    title: "Alberto Todo Jardín",
+    href: "https://todojardin.com.uy/",
+    title: "Todo Jardín",
     description:
       "Motor de Ventas Digital.",
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["VSCode", "Gemini Code Assist", "GitHub", "Vercel", "HTML5", "CSS", "JavaScript", "Trello"],
+    stack: ["VSCode", "Gemini CA", "GitHub", "Vercel", "HTML5", "CSS", "JavaScript", "Trello"],
     slug: "aceternity",
     content: (
       <div>
