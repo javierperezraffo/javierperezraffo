@@ -15,7 +15,7 @@ export const products = [
       "Motor de Ventas Digital.",
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: "VSCode, Gemini Code Assist, GitHub, Vercel, HTML5, CSS, JavaScript, Trello",
+    stack: ["VSCode", "Gemini Code Assist", "GitHub", "Vercel", "HTML5", "CSS", "JavaScript", "Trello"],
     slug: "aceternity",
     content: (
       <div>
