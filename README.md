@@ -1,6 +1,6 @@
-Este es el portfolio personal de Javier Pérez Raffo.
+Este Este es el portfolio personal de Javier Pérez Raffo.
 
-## Tecnologías utilizadas
+Tecnologías utilizadas:
 - Next.js
 - React
 - TypeScript
@@ -18,5 +18,7 @@ Este es el portfolio personal de Javier Pérez Raffo.
 - eslint-config-next
 - postcss
 - prismjs
+- remark-gfm
+- tailwind-merge
 - remark-gfm
 - tailwind-merge
