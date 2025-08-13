@@ -1,11 +1,22 @@
-## Sidefolio - Portfolio website template
+Este es el portfolio personal de Javier Pérez Raffo.
 
-As seen on [Aceternity UI](https://ui.aceternity.com/templtes/sidefolio)
-
-## Built with
+## Tecnologías utilizadas
 - Next.js
-- Tailwindcss
-- Framer motion
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 - MDX
-
-Checkout all the templates at [Aceternity UI](https://ui.aceternity.com/templates)
+- @mapbox/rehype-prism
+- @mdx-js/loader
+- @next/mdx
+- @tabler/icons-react
+- @tailwindcss/typography
+- autoprefixer
+- clsx
+- eslint
+- eslint-config-next
+- postcss
+- prismjs
+- remark-gfm
+- tailwind-merge
