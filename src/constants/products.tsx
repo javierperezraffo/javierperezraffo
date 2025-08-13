@@ -32,7 +32,7 @@ export const products = [
           2. La Solución: Diseño de un Embudo de Ventas Digital desde Cero
         </p>
         <p>
-          El objetivo no era simplemente "estar en internet", sino construir un sistema predecible y escalable para la generación de demanda. La estrategia se centró en crear un embudo de ventas digital integral, atacando el problema desde cuatro frentes simultáneos:
+          El objetivo no era simplemente &quot;estar en internet&quot;, sino construir un sistema predecible y escalable para la generación de demanda. La estrategia se centró en crear un embudo de ventas digital integral, atacando el problema desde cuatro frentes simultáneos:
         </p>
         <p>
           Fundación Digital (Atracción): Crear un sitio web profesional que sirviera como el campamento base de toda la actividad online, optimizado para ser encontrado por clientes potenciales en Google.
