@@ -10,16 +10,9 @@ export default function Home() {
   return (
     <Container>
       <span className="text-4xl">👋</span>
-      <Heading className="font-black">¡Hola! Soy Javier Perez</Heading>
+      <Heading className="font-black">Hola Soy Javier Perez</Heading>
       <Paragraph className="max-w-xl mt-4">
-        Soy un desarrollador full-stack al que le encanta{" "}
-        <Highlight>crear productos</Highlight> y aplicaciones web que puedan impactar
-        millones de vidas.
-      </Paragraph>
-      <Paragraph className="max-w-xl mt-4">
-        Soy un ingeniero de software senior con{" "}
-        <Highlight>7 años de experiencia</Highlight> creando aplicaciones web escalables,
-        optimizadas en rendimiento y con un gran diseño.
+        Consultor en Estrategia y Tecnología | Transformación Digital • Desarrollo web • Crecimiento de Negocios • Optimización de Procesos
       </Paragraph>
       <Heading
         as="h2"
@@ -32,3 +25,4 @@ export default function Home() {
     </Container>
   );
 }
+
