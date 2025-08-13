@@ -24,7 +24,7 @@ export default function AboutPage() {
   ];
   return (
     <Container>
-      <span className="text-4xl mb-4">💬</span>
+      <span className="text-4xl mb-8">💬</span>
       <Heading className="font-black mb-6">Sobre mí</Heading>
       <Paragraph>
         Un Consultor TI en transformación digital de negocios. Bienvenido a mi espacio, donde la tecnología se convierte en una herramienta para resolver problemas reales y generar resultados medibles.
