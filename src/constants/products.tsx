@@ -10,18 +10,15 @@ import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterk
 export const products = [
   {
     href: "https://aceternity.com",
-    title: "Aceternity",
+    title: "Alberto Todo Jardín",
     description:
-      "A design and development studio that focuses on building quality apps.",
+      "Motor de Ventas Digital.",
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Nextjs", "Tailwindcss"],
+    stack: "VSCode, Gemini Code Assist, GitHub, Vercel, HTML5, CSS, JavaScript, Trello",
     slug: "aceternity",
     content: (
       <div>
-        <p>
-          Motor de Ventas Digital para Alberto Todo Jardín
-        </p>
         <p>
           1. El Desafío: El Riesgo de Depender de un Solo Cliente
         </p>
