@@ -36,7 +36,7 @@ export default function AboutPage() {
         Mi enfoque es integral. Como estratega, diagnostico los desafíos de negocio y diseño el plan de acción. Como técnico, construyo las soluciones, desde sitios web optimizados y rápidos hasta la automatización de procesos que ahorran tiempo y dinero. Y como marketer, me aseguro de que cada pieza del ecosistema digital —SEO, redes sociales, publicidad— trabaje en perfecta sintonía para atraer y convertir.
       </Paragraph>
       <Paragraph>
-        A través de este sitio, comparto casos de éxito, estrategias y el "detrás de escena" de cómo se construyen los motores de crecimiento digital. Si eres un empresario buscando escalar, un colega en busca de nuevas perspectivas, o simplemente alguien que valora la unión entre la estrategia de negocio y la ejecución tecnológica, estás en el lugar correcto.
+        A través de este sitio, comparto casos de éxito, estrategias y el &quot;detrás de escena&quot; de cómo se construyen los motores de crecimiento digital. Si eres un empresario buscando escalar, un colega en busca de nuevas perspectivas, o simplemente alguien que valora la unión entre la estrategia de negocio y la ejecución tecnológica, estás en el lugar correcto.
       </Paragraph>
       <Paragraph>
         Te invito a explorar mis proyectos y a que conectemos. Juntos, podemos analizar los desafíos de tu negocio y diseñar el camino digital para alcanzar tus metas.
@@ -47,3 +47,4 @@ export default function AboutPage() {
     </Container>
   );
 }
+
