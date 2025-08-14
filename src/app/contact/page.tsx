@@ -8,9 +8,9 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Contact | John Doe",
+  title: "Contacto | Javier Perez",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Javier Perez es un consultor TI en transformación digital de negocios. Su espacio donde la tecnología se convierte en una herramienta para resolver problemas reales y generar resultados medibles.",
 };
 
 export default function Projects() {

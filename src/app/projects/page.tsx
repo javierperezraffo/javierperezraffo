@@ -7,19 +7,16 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Projects | John Doe",
+  title: "Proyectos | Javier Perez",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Javier Perez es un consultor TI en transformación digital de negocios. Su espacio donde la tecnología se convierte en una herramienta para resolver problemas reales y generar resultados medibles.",
 };
 
 export default function Projects() {
   return (
     <Container>
       <span className="text-4xl">⚡</span>
-      <Heading className="font-black mb-10">
-        {" "}
-        What I&apos;ve been working on
-      </Heading>
+        <Heading as="h2">En qué he estado trabajando</Heading>
 
       <Products />
     </Container>

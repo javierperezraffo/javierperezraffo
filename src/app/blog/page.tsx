@@ -8,9 +8,9 @@ import { Blogs } from "@/components/Blogs";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blogs | John Doe",
+  title: "Newsletter | Javier Perez",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Javier Pérez Raffo es un consultor TI en transformación digital de negocios. Su espacio donde la tecnología se convierte en una herramienta para resolver problemas reales y generar resultados medibles.",
 };
 
 export default async function Blog() {

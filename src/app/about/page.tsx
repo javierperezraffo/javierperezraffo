@@ -10,9 +10,9 @@ import { motion } from "framer-motion";
 import About from "@/components/About";
 
 export const metadata: Metadata = {
-  title: "About | John Doe",
+  title: "Sobre mí | Javier Perez",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Javier Perez es un consultor TI en transformación digital de negocios. Su espacio donde la tecnología se convierte en una herramienta para resolver problemas reales y generar resultados medibles.",
 };
 
 export default function AboutPage() {
@@ -47,4 +47,4 @@ export default function AboutPage() {
     </Container>
   );
 }
-
+
