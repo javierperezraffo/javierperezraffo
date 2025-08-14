@@ -1,5 +1,5 @@
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
+import sidefolioTodojardin from "public/images/sidefolio-todojardin.png";
+
 import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
 import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
 import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
@@ -13,8 +13,8 @@ export const products = [
     title: "Todo Jardín",
     description:
       "Motor de Ventas Digital.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
+    thumbnail: sidefolioTodojardin,
+    images: [sidefolioTodojardin],
     stack: ["VSCode", "Gemini CA", "GitHub", "Vercel", "HTML5", "CSS", "JavaScript", "Trello"],
     slug: "todojardin",
     content: (
