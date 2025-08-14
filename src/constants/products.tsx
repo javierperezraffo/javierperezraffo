@@ -20,6 +20,9 @@ export const products = [
     content: (
       <div>
         <p>
+          Motor de Ventas Digital para Alberto Todo Jardín
+        </p>
+        <p>
           1. El Desafío: Un Riesgo Crítico
         </p>
         <p>
@@ -35,7 +38,7 @@ export const products = [
           <li>Fundación Digital: Un sitio web profesional optimizado para Google.</li>
           <li>Canales de Conversación: Herramientas de contacto directo como WhatsApp y agenda online.</li>
           <li>Visibilidad Activa: Campañas de publicidad en Google y Meta para generar leads inmediatos.</li>
-          <li>Optimización de Procesos: Automatización para gestionar un volumen creciente de solicitudes.</li>
+          <li>Optimización de Procesos: Automatización y gestión centralizada para manejar un volumen creciente de solicitudes.</li>
         </ul>
         <p>
           3. La Ejecución: Activos Clave Implementados
@@ -46,6 +49,7 @@ export const products = [
         <ul>
           <li>Sitio Web Profesional: Rápido, adaptable a móviles y centrado en la conversión.</li>
           <li>Integración de Ventas: WhatsApp Business y agenda de citas en Google Calendar.</li>
+          <li>Gestión Centralizada de Clientes: Implementación de Hubspot CRM para unificar el seguimiento de leads y la gestión de la relación con los clientes.</li>
           <li>Presencia Online: Perfiles optimizados en Google My Business e Instagram.</li>
           <li>Campañas de Leads: Publicidad dirigida en Google Ads y Meta Ads.</li>
           <li>Identidad de Marca: Creación de un manual de marca para una imagen coherente.</li>
@@ -63,7 +67,7 @@ export const products = [
           <li>Gestión: Notion, Trello</li>
           <li>Desarrollo: Visual Studio Code, Gemini Code Assist, GitHub, HTML5, CSS, JavaScript</li>
           <li>Comunicación: WhatsApp Business, Google Calendar</li>
-          <li>Marketing y SEO: Google Ads, Meta Ads, Google Analytics, Google My Business</li>
+          <li>Marketing, SEO y CRM: Google Ads, Meta Ads, Google Analytics, Google My Business, Hubspot CRM</li>
           <li>Diseño: Canva, Ideogram, Veo 3, Davinci Resolve 20</li>
         </ul>
         <p>
