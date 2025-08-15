@@ -25,15 +25,15 @@ export const Sidebar = () => {
             animate={{ x: 0 }}
             transition={{ duration: 0.2, ease: "linear" }}
             exit={{ x: 200 }}
-            className="px-6  z-[100] py-10 bg-neutral-100 max-w-[14rem] lg:w-fit  fixed lg:relative  h-screen right-0 flex flex-col justify-between"
+            className="px-6  z-[100] pt-10 pb-0 bg-neutral-100 max-w-[14rem] lg:w-fit  fixed lg:relative  h-screen right-0 flex flex-col justify-between bg-gradient-to-b from-neutral-100 to-neutral-100/0"
           >
             <div className="flex-1 overflow-auto pt-16">
               <SidebarHeader />
               <Navigation setOpen={setOpen} />
             </div>
-            <div onClick={() => isMobile() && setOpen(false)}>
+            {/* <div onClick={() => isMobile() && setOpen(false)}>
               <Badge href="/resume" text="Ver CV" />
-            </div>
+            </div> */}
           </motion.div>
         )}
       </AnimatePresence>
