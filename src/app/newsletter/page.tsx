@@ -20,12 +20,15 @@ export default async function Blog() {
   return (
     <Container>
       <span className="text-4xl">📝</span>
-      <Heading className="font-black pb-4">I write about technology</Heading>
+      <Heading className="font-black pb-4 text-center">Todas las novedades de mi newsletter, directamente en tu bandeja de entrada.</Heading>
       <Paragraph className="pb-10">
-        Ever since <Highlight> I was a kid</Highlight>, I&apos;ve been
-        fascinated by technology.
+        {/* Ever since <Highlight> I was a kid</Highlight>, I&apos;ve been
+        fascinated by technology. */}
       </Paragraph>
       <Blogs blogs={data} />
+      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
+        <iframe src="https://javierperezraffo.substack.com/embed" width="480" height="320" style={{ border: '1px solid #EEE', background: 'white' }} frameBorder="0" scrolling="no"></iframe>
+      </div>
     </Container>
   );
 }

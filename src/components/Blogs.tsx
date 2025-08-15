@@ -26,7 +26,7 @@ export const Blogs = ({ blogs }: { blogs: Blog[] }) => {
         >
           <Link
             key={`blog-${blog.title}`}
-            href={`/blog/${blog.slug}`}
+            href={`/newsletter/${blog.slug}`}
             className="relative my-10 block"
             onMouseEnter={() => setHovered(blog.slug)}
             onMouseLeave={() => setHovered(null)}

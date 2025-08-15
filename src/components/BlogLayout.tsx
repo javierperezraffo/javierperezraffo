@@ -36,7 +36,7 @@ export function BlogLayout({
         <header className="flex flex-col">
           <Link
             type="button"
-            href="/blog"
+            href="/newsletter"
             aria-label="Go back to articles"
             className="group mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition  "
           >
@@ -62,7 +62,7 @@ export function BlogLayout({
             />
           </div>
         </header>
-        <Prose className="mt-8">{children}</Prose>
+        <div className="mt-8">{children}</div>
       </article>
     </Container>
   );
