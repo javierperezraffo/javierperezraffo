@@ -15,14 +15,13 @@ export const metadata: Metadata = {
 
 export default function Projects() {
   return (
-    <Container>
+    <Container className="text-center mx-auto">
       <span className="text-4xl">✉️</span>
-      <Heading className="font-black mb-2">Contact Me</Heading>
-      <Paragraph className="mb-10 max-w-xl">
-        Reach out to me over email or fill up this contact form. I will get back
-        to you ASAP - I promise.{" "}
+      <Heading className="font-black mb-2 mx-auto">Me podés encontrar en</Heading>
+      <Paragraph className="mb-10 max-w-xl mx-auto">
+        ti@jpraffo.com{" "}
       </Paragraph>
-      <Contact />
+      {/* <Contact /> */}
     </Container>
   );
 }
