@@ -27,7 +27,7 @@ export const Sidebar = () => {
             exit={{ x: 200 }}
             className="px-6  z-[100] py-10 bg-neutral-100 max-w-[14rem] lg:w-fit  fixed lg:relative  h-screen right-0 flex flex-col justify-between"
           >
-            <div className="flex-1 overflow-auto pt-12">
+            <div className="flex-1 overflow-auto pt-16">
               <SidebarHeader />
               <Navigation setOpen={setOpen} />
             </div>
