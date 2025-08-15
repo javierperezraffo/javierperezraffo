@@ -21,13 +21,13 @@ export const Sidebar = () => {
       <AnimatePresence>
         {open && (
           <motion.div
-            initial={{ x: -200 }}
+            initial={{ x: 200 }}
             animate={{ x: 0 }}
             transition={{ duration: 0.2, ease: "linear" }}
-            exit={{ x: -200 }}
-            className="px-6  z-[100] py-10 bg-neutral-100 max-w-[14rem] lg:w-fit  fixed lg:relative  h-screen left-0 flex flex-col justify-between"
+            exit={{ x: 200 }}
+            className="px-6  z-[100] py-10 bg-neutral-100 max-w-[14rem] lg:w-fit  fixed lg:relative  h-screen right-0 flex flex-col justify-between"
           >
-            <div className="flex-1 overflow-auto">
+            <div className="flex-1 overflow-auto pt-12">
               <SidebarHeader />
               <Navigation setOpen={setOpen} />
             </div>
@@ -37,12 +37,26 @@ export const Sidebar = () => {
           </motion.div>
         )}
       </AnimatePresence>
-      <button
-        className="fixed lg:hidden bottom-4 right-4 h-8 w-8 border border-neutral-200 rounded-full backdrop-blur-sm flex items-center justify-center z-50"
-        onClick={() => setOpen(!open)}
-      >
-        <IconLayoutSidebarRightCollapse className="h-4 w-4 text-secondary" />
-      </button>
+<button
+            type="button"
+            className="fixed top-8 right-8 z-[101] flex bg-transparent p-0 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 lg:hidden"
+            onClick={() => setOpen(!open)}
+          >
+            <svg
+              className="h-8 w-8"
+              fill="none"
+              stroke="black"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
     </>
   );
 };
