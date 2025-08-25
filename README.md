@@ -1,4 +1,4 @@
-Este Este es el portfolio personal de Javier Pérez Raffo.
+Portfolio Personal Javier Perez.
 
 Tecnologías utilizadas:
 - Next.js
